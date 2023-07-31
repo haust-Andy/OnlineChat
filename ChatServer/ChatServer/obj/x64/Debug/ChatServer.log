@@ -1,0 +1,15 @@
+﻿  正在验证源
+  正在将源远程复制到“127.0.0.1”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\main.cpp(117,32): warning : comparison with string literal results in unspecified behavior [-Waddress]
+C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\main.cpp(117,32): warning :                      if (buf == "\n")continue;
+C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\main.cpp(117,32): warning :                                 ^~~~
+C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\main.cpp(188,31): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\main.cpp(188,31): warning :                  int len = read(evtArray[i].data.fd, message, sizeof(message));
+C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\main.cpp(188,31): warning :                            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  ChatServer.vcxproj -> C:\Users\14816\Documents\CODE\VSCPP\LinuxAll\ChatServer\ChatServer\bin\x64\Debug\ChatServer.out
